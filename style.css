@@ -1,0 +1,58 @@
+/*
+Theme Name: Campus Cœur de Bourgogne
+Theme URI: https://www.campus-autun.tech
+Author: Raymond ZEKPA
+Author URI: https://www.campus-autun.tech
+Description: Thème WordPress officiel du Campus Cœur de Bourgogne - V3 Fix + Images + Démo.
+Version: 3.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: campus-coeur-bourgogne
+Tags: education, campus, training, modern, responsive
+*/
+
+/* Palette principale */
+:root {
+  --campus-gold: #E6A326;
+  --campus-brown: #2B1A14;
+  --campus-white: #ffffff;
+  --campus-green: #2ecc71;
+  --campus-blue: #3498db;
+  --campus-violet: #9b59b6;
+  --campus-red: #e74c3c;
+  --campus-turquoise: #1abc9c;
+}
+
+/* Style global */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background-color: var(--campus-white);
+  color: var(--campus-brown);
+}
+
+h1, h2, h3, h4 {
+  color: var(--campus-brown);
+  font-weight: 700;
+}
+
+a {
+  color: var(--campus-gold);
+  text-decoration: none;
+}
+
+button, .btn {
+  background-color: var(--campus-gold);
+  color: var(--campus-white);
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover, .btn:hover {
+  background-color: var(--campus-brown);
+  color: var(--campus-white);
+}
